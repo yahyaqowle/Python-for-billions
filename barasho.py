@@ -1,21 +1,28 @@
-#Day 2 24 Jan
-# Python Syntax
+# #Day 2 24 Jan
+# # Python Syntax
+#
+# print("Hello, Fr oz")
+#
+# print("djfdf")
+#
+# # Python Indentation
+#
+# # problem 1
+# if 5 > 2:
+#     print("Five is greater than two!")
+#
+# # problem 2
+# if 5 > 2:
+#  print("Five is greater than two!")
+# if 5 > 2:
+#         print("Five is greater than two!")
 
-print("Hello, Fr oz")
+Day 3 26/01/23
+Comments
+Variables
+Data types
 
-print("djfdf")
 
-# Python Indentation
-
-# problem 1
-if 5 > 2:
-    print("Five is greater than two!")
-
-# problem 2
-if 5 > 2:
- print("Five is greater than two!")
-if 5 > 2:
-        print("Five is greater than two!")
 
 
 
