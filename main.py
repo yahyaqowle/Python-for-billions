@@ -1,0 +1,1 @@
+print("froz wuu soo  daahay")
