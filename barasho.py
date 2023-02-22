@@ -380,7 +380,7 @@ print(m)
 
 n = memoryview(bytes(15))
 print(n)
-"""
+
 
 # 13/02/2023
 #Python numbers
@@ -423,3 +423,112 @@ print(s)
 import random
 
 print(random.randrange(5, 18944))
+
+
+#14/02/2023
+#python casting
+
+#Specify a Variable Type There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+
+#Casting in python is therefore done using constructor functions:
+
+#int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+
+we1 = int(1)   # we1 will be 1
+we2 = int(2.8) # we2 will be 2
+we3 = int("3") # we3 will be 3
+
+print(we1, we2, we3)
+
+#float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+
+q1 = float(1)     # q1 will be 1.0
+q2 = float(2.8)   # q2 will be 2.8
+q3 = float("3")   # q3 will be 3.0
+q4 = float("4.2") # q4 will be 4.2
+
+print(q1, q2, q3, q4)
+
+#str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
+qq = str("s1") # qq will be 's1'
+qq2 = str(2)    # qq2 will be '2'
+qq3 = str(3.0)  # qq3 will be '3.0'
+
+print(qq, qq2, qq3)
+"""
+
+#22/02/2023
+#python string
+
+print("Hello")
+print('Hello')
+
+#Assign String to a Variable
+
+a = "Hefroz"
+print(a)
+
+#Multiline Strings
+#You can assign a multiline string to a variable by using three quotes:
+
+a = """Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,
+alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
+Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
+Labadii waxlaga eegijiray waan ka awdnahaye
+Halkaan aa ka leeyahay Illaah kaliya uun baa og."""
+print(a)
+
+#example 2
+
+# e34 = '''ﺍَﻟﺨَﻴﻞُ ﻭَﺍَﻟﻠَﻴﻞُ ﻭَﺍَﻟﺒَﻴﺪَﺍﺀُ ﺗَﻌﺮِﻓُﻨِﻲ ﻭَﺍَﻟﺴَّﻴﻒُ ﻭَﺍَﻟﺮُّﻣﺢُ ﻭَﺍَﻟﻘِﺮﻃَﺎﺱُ ﻭَﺍَﻟﻘَﻠَﻢُ ﺃَﻧَﺎ ﺍَﻟَّﺬِﻱ ﻧَﻈَﺮَ ﺍَﻟﺄَﻋﻤَﻰ ﺇِﻟَﻰ ﺃَﺩَﺑِﻲ  ﻭَﺃَﺳﻤَﻌَﺖ ﻛَﻠِﻤَﺎﺗِﻲ ﻣَﻦ ﺑِﻪُ ﺻَﻤَﻢُ'''
+# print(e34)
+
+#Strings are Arrays
+
+bir = "Hello, World!"
+print(bir[6]) # Arrays waa qaabka dhismeedka ay iskugu xigaan qoraalka ama karakterka e.g "hello" H = 0 e =1 l =2 l =3 o=4
+
+#Looping Through a String
+
+for f in "albashiiri":
+  print(f)
+
+#String Length
+
+a = "Hello, World!"
+print(len(a))
+
+froz03 = "Froz is in the bathroom"
+print(len(froz03))
+
+froz04 = "Frois in the bathroom"
+print(froz04[3])
+
+#Check String
+
+txt45 = "The best things in life are free!"
+print("The" in txt45)
+
+#example 2
+txt46 = '''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,  
+alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
+Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
+Labadii waxlaga eegijiray waan ka awdnahaye
+Halkaan aa ka leeyahay Illaah kaliya uun baa og'''
+print('alif' in txt46)
+
+#example 3
+#Use it in an if statement:
+
+txt500 = "Tuugnimo iyo biyo cabis waa khalad!"
+if "biyo" in txt500:
+  print("Haa, 'biyo xaditaan waa khalad.")
+else:
+  print("maya waa sax xaditaan")
+
+#Check if NOT
+#Check if "expensive" is NOT present in the following text:
+
+txt = "Tuugnimo iyo biyo cabis waa khalad!"
+print("iyo" not in txt)
