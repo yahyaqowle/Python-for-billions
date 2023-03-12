@@ -456,7 +456,6 @@ qq2 = str(2)    # qq2 will be '2'
 qq3 = str(3.0)  # qq3 will be '3.0'
 
 print(qq, qq2, qq3)
-"""
 
 #22/02/2023
 #python string
@@ -472,11 +471,11 @@ print(a)
 #Multiline Strings
 #You can assign a multiline string to a variable by using three quotes:
 
-a = """Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,
+a = '''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,
 alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
 Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
 Labadii waxlaga eegijiray waan ka awdnahaye
-Halkaan aa ka leeyahay Illaah kaliya uun baa og."""
+Halkaan aa ka leeyahay Illaah kaliya uun baa og.'''
 print(a)
 
 #example 2
@@ -532,3 +531,169 @@ else:
 
 txt = "Tuugnimo iyo biyo cabis waa khalad!"
 print("iyo" not in txt)
+"""
+
+#27/02/203
+#Slicing String
+
+#You can return a range of characters by using the slice syntax.
+#Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+b32 = "Hello, World!"
+print(
+  b32[2:5])  #Get the characters from position 2 to position 5 (not included):
+
+#Slice From the Start
+## By leaving out the start index, the range will start at the first character:
+
+b33 = "Merhaba, Caalam!"
+print(
+  b33[:5])  #Get the characters from the start to position 5 (not included):
+
+#Slice To the End
+##By leaving out the end index, the range will go to the end:
+
+b34 = "Iska wrn, World!"
+print(
+  b34[2:])  #Get the characters from position 2, and all the way to the end:
+
+#Negative Indexing
+#Use negative indexes to start the slice from the end of the string:
+
+# Example
+# Get the characters:
+
+# From: "o" in "World!" (position -5)
+
+# To, but not included: "d" in "World!" (position -2):
+
+b40 = "Hello, World!"
+print(b40[-5:-2])
+
+b55 = "Nabaadina, adduun!"
+print(b55[-5:-2])
+
+#Python - Modify Strings
+
+a72 = "merhaba, World!"
+print(a72.upper())
+
+a73 = "ola, World!"
+print(a73.lower())
+
+#Remove Whitespace
+#Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+
+#Example
+#The strip() method removes any whitespace from the beginning or the end:
+
+a74 = " Hello, World! "
+print(a74.strip())  # returns "Hello, World!"
+
+#Replace String
+
+#Example
+#The replace() method replaces a string with another string:
+
+a75 = "Hello, World!"
+print(a74.replace("H", "J"))
+
+#Split String
+#The split() method returns a list where the text between the specified separator becomes the list items.
+
+#Example
+#The split() method splits the string into substrings if it finds instances of the separator:
+
+a76 = "Hello, World!"
+print(a76.split(","))  # returns ['Hello', ' World!']
+
+#Python - String Concatenation
+
+#String Concatenation
+#To concatenate, or combine, two strings you can use the + operator.
+
+#Example
+#Merge variable a with variable b into variable c:
+
+a77 = "Hello "
+b77 = "Isha baxarka"
+c77 = a77 + b77
+print(c77)
+
+#Python - Format - Strings
+
+#String Format
+#As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+'''
+age = 36
+txt = "My name is John, I am " + age
+print(txt) #this is an error = le "main.py", line 629, in <module>
+    txt = "My name is John, I am " + age
+TypeError: can only concatenate str (not "int") to str
+'''
+
+#But we can combine strings and numbers by using the format() method!
+
+#The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+
+#Example
+#Use the format() method to insert numbers into strings:
+
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+#The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
+
+quantity = 3
+itemno = "Moos iyo cambe"
+price = 9.95
+myorder = "I want {} pieces of item {} for {} lira."
+print(myorder.format(quantity, itemno, price))
+
+#You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
+
+quantity2 = 3
+itemno2 = 567
+price2 = 49.95
+myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder2.format(quantity2, itemno2, price2))
+
+#Python - Escape Characters
+
+#Escape Character
+#To insert characters that are illegal in a string, use an escape character.
+
+#An escape character is a backslash \ followed by the character you want to insert.
+
+#An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+
+#Example
+#You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+'''
+txt200 = "We are the so-called "Vikings" from the north." #this an error
+'''
+
+#To fix this problem, use the escape character \":
+
+txt201 = "We are the so-called \"Vikings\" from the north."
+print(txt201)
+
+# Escape Characters
+# Other escape characters used in Python:
+
+# Code	Result	Try it
+# \'	Single Quote
+# \\	Backslash
+# \n	New Line
+# \r	Carriage Return
+# \t	Tab
+# \b	Backspace
+# \f	Form Feed
+# \ooo	Octal value
+# \xhh	Hex value
+
+
+#07/03/2023
+#Python Booleans
+
