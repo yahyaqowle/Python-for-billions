@@ -1,697 +1,692 @@
-# # import random
-# # print(random.randint(0, 100))
+import random
+print(random.randint(0, 100))
 
-# # """
-# # ##Day 2 24 Jan
-# # # Python Syntax
-
-# # print("Hello, Fr oz")
+##Day 2 24 Jan
+# Python Syntax
 
-# # print("djfdf")
-
-# # # Python Indentation
-
-# # # problem 1
-# # if 5 > 2:
-# #     print("Five is greater than two!")
-
-# # # problem 2
-# # if 5 > 2:
-# #  print("Five is greater than two!")
-# # if 5 > 2:
-# #         print("Five is greater than two!")
-
-# # # Day 3 26/01/23
-# # # Comments
-
-# # print("comment")
-# # print("comment2") #this is an example of commments
-
-# # """
-
-# # ##Day 4 27/01/2023
-# # """
-# # # Variables
-
-# # x = 5 # 5 is int (integer)
-# # print(x)
-
-# # xx = "albashiiri" # albashiiri is str (string)
-# # print(xx)
-
-# # z = float(5)
-# # print(z)
-
-# # """
-
-# #   ## Casting
-
-# # #example 1
-# # a = str(100)
-# # b = int(100)
-# # c = float(100)
-# # print(a, b, c)
-
-# # #example 2
+print("Hello, Fr oz")
 
-# # h = 10
-# # i = "frozenset"
-# # j = 1.3
-# # print(type(h))
-# # print(type(i))
-# # print(type(j))
+print("djfdf")
 
-# #  # single or double qoutes
+# Python Indentation
 
-# # l = "froz1"
-# # k = 'froz2'
-# # print(l, k)
+# problem 1
+if 5 > 2:
+    print("Five is greater than two!")
 
-# #  #Case-Sensitive
-# # q = 1
-# # Q = 4
-# # print(q, Q)
+# problem 2
+if 5 > 2:
+ print("Five is greater than two!")
+if 5 > 2:
+        print("Five is greater than two!")
 
-# # T = 9
-# # T = "sally"
-# # print(T, T)
+# Day 3 26/01/23
+# Comments
 
-# #  #variable names
+print("comment")
+print("comment2") #this is an example of commments
 
-# #  #legal variable names
-# # myvar = "Bulbeni"
-# # my_var = "Bulbeni"
-# # _my_var = "Bulbeni"
-# # myVar = "Bulbeni"
-# # MYVAR1 = "e"
-# # myvar2 = "d"
-# # print(myvar2)
 
-# #  #illegal variable names
-# # """
-# # 2myvar = "Bulbeni"
-# # my-var = "Bulbeni"
-# # my var = "Bulbeni"
-# # """
-# #  #Multi Words Variable Names
-# # x, y, z = "Orange", "Banana", "Cherry"
-# # print(x)
-# # print(y)
-# # print(z)
 
-# # #One Value to Multiple Variables
-# # x = y = z = "Orange"
-# # print(x)
-# # print(y)
-# # print(z)
+##Day 4 27/01/2023
 
-# # #Unpack a Collection
-# # fruits = ["apple", "banana", "cherry"]
-# # x, y, z = fruits
-# # print(x)
-# # print(y)
-# # print(z)
-# """
+# Variables
 
-# ## 06/02/2023
-# ### Output Variables
+x = 5 # 5 is int (integer)
+print(x)
 
+xx = "albashiiri" # albashiiri is str (string)
+print(xx)
 
-# #The Python print() function is often used to output variables.
-# x = "Python is awesome"
-# print(x)
+z = float(5)
+print(z)
 
-# #In the print() function, you output multiple variables, separated by a comma:
-# x = "c++"
-# y = "is"
-# z = "awesome"
-# print(x, y, z)
 
-# #Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".
-# x = "Python"
-# y = "is"
-# z = "awesome"
-# print(x + y + z) #You can also use the + operator to output multiple variables:
 
-# #example
-# x = "Machine learning "
-# y = "will "
-# z = "be awesome"
-# print(x + y + z) #You can also use the + operator to output multiple variables:
+  ## Casting
 
-# # In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error: here is example
-# x = 5
-# y = "Bulbeni"
-# #print(x + y) # this is an error
+#example 1
+a = str(100)
+b = int(100)
+c = float(100)
+print(a, b, c)
 
-# #The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
-# x = 5
-# y = "Bulbeni"
-# print(x, y)
+#example 2
 
+h = 10
+i = "frozenset"
+j = 1.3
+print(type(h))
+print(type(i))
+print(type(j))
 
+ # single or double qoutes
 
-# #07/02/2023
+l = "froz1"
+k = 'froz2'
+print(l, k)
 
-# #Global Variables
+ #Case-Sensitive
+q = 1
+Q = 4
+print(q, Q)
 
-#   ##Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+T = 9
+T = "sally"
+print(T, T)
 
-#   #Global variables can be used by everyone, both inside of functions and outside.
+ #variable names
 
-# x = "aminakoyum"
+ #legal variable names
+myvar = "Bulbeni"
+my_var = "Bulbeni"
+_my_var = "Bulbeni"
+myVar = "Bulbeni"
+MYVAR1 = "e"
+myvar2 = "d"
+print(myvar2)
 
-# def myfunc():
-#   print("froz " + x)
+ #illegal variable names
 
-# myfunc()
-# #example 2
+# 2myvar = "Bulbeni"
+# my-var = "Bulbeni"
+# my var = "Bulbeni"
 
-# y = "tusaale"
+ #Multi Words Variable Names
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 
-# def froz0():
-#   print("sikerim seni " + y)
+#One Value to Multiple Variables
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
 
-# froz0()
+#Unpack a Collection
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
 
-# #problem2
 
-# #Create a variable inside a function, with the same name as the global variable
+## 06/02/2023
+### Output Variables
 
-# W = "albashiiri"
 
-# def myfunc():
-#   w = "saalah"
-#   print("Python is " + w) #If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+#The Python print() function is often used to output variables.
+x = "Python is awesome"
+print(x)
 
-# myfunc()
+#In the print() function, you output multiple variables, separated by a comma:
+x = "c++"
+y = "is"
+z = "awesome"
+print(x, y, z)
 
-# print("Python is " + W)
+#Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".
+x = "Python"
+y = "is"
+z = "awesome"
+print(x + y + z) #You can also use the + operator to output multiple variables:
 
-# #The global Keyword
+#example
+x = "Machine learning "
+y = "will "
+z = "be awesome"
+print(x + y + z) #You can also use the + operator to output multiple variables:
 
-# #Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+# In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error: here is example
+x = 5
+y = "Bulbeni"
+#print(x + y) # this is an error
 
-# # To create a global variable inside a function, you can use the global keyword.
+#The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+x = 5
+y = "Bulbeni"
+print(x, y)
 
-# def myfunc():
-#   global x
-#   x = "fantastic"
 
-# myfunc()
 
-# print("Python is " + x)
+#07/02/2023
 
-# def syntax9():
-#   global M
-#   M = 7 + 3
+#Global Variables
 
-# syntax9()
-# print(M)
+  ##Variables that are created outside of a function (as in all of the examples above) are known as global variables.
 
+  #Global variables can be used by everyone, both inside of functions and outside.
 
+x = "aminakoyum"
 
+def myfunc():
+  print("froz " + x)
 
+myfunc()
+#example 2
 
-# #Also, use the global keyword if you want to change a global variable inside a function.
+y = "tusaale"
 
-# x = "casiir"
+def froz0():
+  print("sikerim seni " + y)
 
-# def myfunc():
-#   global x
-#   x = "caano"
+froz0()
 
-# myfunc()
+#problem2
 
-# x = "casiir"
-# x = "four"
-# print(x)
+#Create a variable inside a function, with the same name as the global variable
+
+W = "albashiiri"
+
+def myfunc():
+  w = "saalah"
+  print("Python is " + w) #If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+
+myfunc()
+
+print("Python is " + W)
+
+#The global Keyword
+
+#Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+
+# To create a global variable inside a function, you can use the global keyword.
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+def syntax9():
+  global M
+  M = 7 + 3
+
+syntax9()
+print(M)
+
+
+
+
+
+#Also, use the global keyword if you want to change a global variable inside a function.
+
+x = "casiir"
+
+def myfunc():
+  global x
+  x = "caano"
+
+myfunc()
+
+x = "casiir"
+x = "four"
+print(x)
  
 
 
 
 
-# # print("hilib " + x) #To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+# print("hilib " + x) #To change the value of a global variable inside a function, refer to the variable by using the global keyword:
 
 
 
-# #09/02/2023
-# # Data types
+#09/02/2023
+# Data types
 
-# #Built-in Data Types
-# #In programming, data type is an important concept. Variables can store data of different types, and different types can do different things.
+#Built-in Data Types
+#In programming, data type is an important concept. Variables can store data of different types, and different types can do different things.
 
-# #python has the following data types built-in by default, in these categories:
+#python has the following data types built-in by default, in these categories:
 
-# x = 5 
-# print(x)
-# print(type(x))
+x = 5 
+print(x)
+print(type(x))
 
 
-# # Text Type:    str
-# A = "froz" 
-# print(A)
-# print(type(A))
+# Text Type:    str
+A = "froz" 
+print(A)
+print(type(A))
 
 
-# # Numeric Types:    int, float, complex
-# #integer
-# B = 5 
-# print(B)
-# print(type(B))
+# Numeric Types:    int, float, complex
+#integer
+B = 5 
+print(B)
+print(type(B))
 
-# # float
-# C = 5.3
-# print(C)
-# print(type(C))
+# float
+C = 5.3
+print(C)
+print(type(C))
 
-# #complex
-# D = 5j
-# print(D)
-# print(type(D))
+#complex
+D = 5j
+print(D)
+print(type(D))
 
 
-# # Sequence Types:    list, tuple, range
-# #list
-# E = ["albashiiri", "froz", "qowle"]
-# print(E)
-# print(type(E))
+# Sequence Types:    list, tuple, range
+#list
+E = ["albashiiri", "froz", "qowle"]
+print(E)
+print(type(E))
 
-# #tuple
-# F = ("albashiiri", "froz", "qowle") 
-# print(F)
-# print(type(F))
+#tuple
+F = ("albashiiri", "froz", "qowle") 
+print(F)
+print(type(F))
 
-# #range
-# H = range(5)
-# print(H)
-# print(type(H))
+#range
+H = range(5)
+print(H)
+print(type(H))
 
-# # Mapping Type:    dict
+# Mapping Type:    dict
 
-# I = {"name" : "John", "age" : 36} 
-# print(I)
-# print(type(I))
+I = {"name" : "John", "age" : 36} 
+print(I)
+print(type(I))
 
 
-# # Set Types:    set, frozenset
-# #set
-# J = {"albashiiri", "froz", "qowle"} 
-# print(J)
-# print(type(J))
+# Set Types:    set, frozenset
+#set
+J = {"albashiiri", "froz", "qowle"} 
+print(J)
+print(type(J))
 
-# #frozenset
-# K = frozenset({"albashiiri", "froz", "qowle"}) 
-# print(K)
-# print(type(K))
+#frozenset
+K = frozenset({"albashiiri", "froz", "qowle"}) 
+print(K)
+print(type(K))
 
-# # Boolean Type:    bool
-# #bool
-# L = True
-# print(L)
-# print(type(L))
+# Boolean Type:    bool
+#bool
+L = True
+print(L)
+print(type(L))
 
-# # Binary Types:    bytes, bytearray, memoryview
-# #bytes
-# L = b"Hello qowle"
-# print(L)
-# print(type(L))
+# Binary Types:    bytes, bytearray, memoryview
+#bytes
+L = b"Hello qowle"
+print(L)
+print(type(L))
 
-# #bytearray
-# M = bytearray(7)
-# print(M)
-# print(type(M))
+#bytearray
+M = bytearray(7)
+print(M)
+print(type(M))
 
-# #memoryview
-# N = memoryview(bytes(5))
-# print(M)
-# print(type(N))
+#memoryview
+N = memoryview(bytes(5))
+print(M)
+print(type(N))
 
-# # None Type:    NoneType
-# O = None
-# print(O)
-# print(type(O))
+# None Type:    NoneType
+O = None
+print(O)
+print(type(O))
 
 
-# # continue 10/02/2023
+# continue 10/02/2023
 
-# #Setting the Specific Data Type
-# ## Text Type:    str
-# #str
-# a = str("feo<")
-# print(a)
+#Setting the Specific Data Type
+## Text Type:    str
+#str
+a = str("feo<")
+print(a)
 
-# #integer
-# b = int(9)
-# print(b)
+#integer
+b = int(9)
+print(b)
 
-# c = float(10.5)
-# print(c)
+c = float(10.5)
+print(c)
 
-# d = complex(87j)
-# print(d)
+d = complex(87j)
+print(d)
 
-# e = list(("tufaax", "moos", "cherry"))
-# print(e)
+e = list(("tufaax", "moos", "cherry"))
+print(e)
 
-# f = tuple(("tufaax", "moos", "cherry"))
-# print(f)
+f = tuple(("tufaax", "moos", "cherry"))
+print(f)
 
-# g = range(5)
-# print(g)
+g = range(5)
+print(g)
 
-# h = dict(name="Qowle", age=100)
-# print(h)
+h = dict(name="Qowle", age=100)
+print(h)
 
-# i = set(("basal", "baradho", "yaanyo"))
-# print(i)
+i = set(("basal", "baradho", "yaanyo"))
+print(i)
 
-# j = frozenset(("GAare", "bana", "crry"))
-# print(j)
+j = frozenset(("GAare", "bana", "crry"))
+print(j)
 
-# k = bool(32)
-# print(k)
+k = bool(32)
+print(k)
 
-# l = bytes(60)
-# print(l)
+l = bytes(60)
+print(l)
 
-# m = bytearray(2)
-# print(m)
+m = bytearray(2)
+print(m)
 
-# n = memoryview(bytes(15))
-# print(n)
+n = memoryview(bytes(15))
+print(n)
 
 
-# # 13/02/2023
-# #Python numbers
+# 13/02/2023
+#Python numbers
 
-# #integer
-# o = 35656222554887711
-# print(o)
+#integer
+o = 35656222554887711
+print(o)
 
-# #Float
-# p  = 9.7639
-# print(p)
+#Float
+p  = 9.7639
+print(p)
 
-# # Float can also be scientific numbers with an "e" to indicate the power of 10.
-# # e qiimaheeda waa 10 yacni, 5e1 = 5 * 10 waanna 50. mar walba e waxa ka dambeeya tirada ey tahay baa zero u xisaabin. tusaale 1e4 waa (1*10000 = 10000)
-# #float power
-# p2 = 5e8 #500000000
-# print(p2)
+# Float can also be scientific numbers with an "e" to indicate the power of 10.
+# e qiimaheeda waa 10 yacni, 5e1 = 5 * 10 waanna 50. mar walba e waxa ka dambeeya tirada ey tahay baa zero u xisaabin. tusaale 1e4 waa (1*10000 = 10000)
+#float power
+p2 = 5e8 #500000000
+print(p2)
 
-# #complex
-# q = 234.5j
-# print(q)
+#complex
+q = 234.5j
+print(q)
 
-# #Type Conversion
-# #convert from int to float:
+#Type Conversion
+#convert from int to float:
 
-# r = float(10)
-# print(r)
+r = float(10)
+print(r)
 
-# # convert float to complex
+# convert float to complex
 
-# s = complex(29.44)
-# print(s)
+s = complex(29.44)
+print(s)
 
-# # Random Number
+# Random Number
 
-# # Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
+# Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
 
-# #Import the random module, and display a random number between 1 and 9:
+#Import the random module, and display a random number between 1 and 9:
 
-# import random
+import random
 
-# print(random.randrange(5, 18944))
+print(random.randrange(5, 18944))
 
 
-# #14/02/2023
-# #python casting
+#14/02/2023
+#python casting
 
-# #Specify a Variable Type There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+#Specify a Variable Type There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
 
-# #Casting in python is therefore done using constructor functions:
+#Casting in python is therefore done using constructor functions:
 
-# #int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+#int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
 
-# we1 = int(1)   # we1 will be 1
-# we2 = int(2.8) # we2 will be 2
-# we3 = int("3") # we3 will be 3
+we1 = int(1)   # we1 will be 1
+we2 = int(2.8) # we2 will be 2
+we3 = int("3") # we3 will be 3
 
-# print(we1, we2, we3)
+print(we1, we2, we3)
 
-# #float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+#float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
 
-# q1 = float(1)     # q1 will be 1.0
-# q2 = float(2.8)   # q2 will be 2.8
-# q3 = float("3")   # q3 will be 3.0
-# q4 = float("4.2") # q4 will be 4.2
+q1 = float(1)     # q1 will be 1.0
+q2 = float(2.8)   # q2 will be 2.8
+q3 = float("3")   # q3 will be 3.0
+q4 = float("4.2") # q4 will be 4.2
 
-# print(q1, q2, q3, q4)
+print(q1, q2, q3, q4)
 
-# #str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+#str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
-# qq = str("s1") # qq will be 's1'
-# qq2 = str(2)    # qq2 will be '2'
-# qq3 = str(3.0)  # qq3 will be '3.0'
+qq = str("s1") # qq will be 's1'
+qq2 = str(2)    # qq2 will be '2'
+qq3 = str(3.0)  # qq3 will be '3.0'
 
-# print(qq, qq2, qq3)
+print(qq, qq2, qq3)
 
-# #22/02/2023
-# #python string
+#22/02/2023
+#python string
 
-# print("Hello")
-# print('Hello')
+print("Hello")
+print('Hello')
 
-# #Assign String to a Variable
+#Assign String to a Variable
 
-# a = "Hefroz"
-# print(a)
+a = "Hefroz"
+print(a)
 
-# #Multiline Strings
-# #You can assign a multiline string to a variable by using three quotes:
+#Multiline Strings
+#You can assign a multiline string to a variable by using three quotes:
 
-# a = '''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,
-# alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
-# Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
-# Labadii waxlaga eegijiray waan ka awdnahaye
-# Halkaan aa ka leeyahay Illaah kaliya uun baa og.'''
-# print(a)
+a = ''''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye Raggase adhaxda iyo ooftu waa udub dhexaadkiiye Labadii waxlaga eegijiray waan ka awdnahaye Halkaan aa ka leeyahay Illaah kaliya uun baa og.'''
+print(a)
 
-# #example 2
-# al mutanabi
-# # e34 = '''ﺍَﻟﺨَﻴﻞُ ﻭَﺍَﻟﻠَﻴﻞُ ﻭَﺍَﻟﺒَﻴﺪَﺍﺀُ ﺗَﻌﺮِﻓُﻨِﻲ ﻭَﺍَﻟﺴَّﻴﻒُ ﻭَﺍَﻟﺮُّﻣﺢُ ﻭَﺍَﻟﻘِﺮﻃَﺎﺱُ ﻭَﺍَﻟﻘَﻠَﻢُ ﺃَﻧَﺎ ﺍَﻟَّﺬِﻱ ﻧَﻈَﺮَ ﺍَﻟﺄَﻋﻤَﻰ ﺇِﻟَﻰ ﺃَﺩَﺑِﻲ  ﻭَﺃَﺳﻤَﻌَﺖ ﻛَﻠِﻤَﺎﺗِﻲ ﻣَﻦ ﺑِﻪُ ﺻَﻤَﻢُ'''
-# # print(e34)
+#example 2
+#al mutanabi
+# e34 = '''ﺍَﻟﺨَﻴﻞُ ﻭَﺍَﻟﻠَﻴﻞُ ﻭَﺍَﻟﺒَﻴﺪَﺍﺀُ ﺗَﻌﺮِﻓُﻨِﻲ ﻭَﺍَﻟﺴَّﻴﻒُ ﻭَﺍَﻟﺮُّﻣﺢُ ﻭَﺍَﻟﻘِﺮﻃَﺎﺱُ ﻭَﺍَﻟﻘَﻠَﻢُ ﺃَﻧَﺎ ﺍَﻟَّﺬِﻱ ﻧَﻈَﺮَ ﺍَﻟﺄَﻋﻤَﻰ ﺇِﻟَﻰ ﺃَﺩَﺑِﻲ  ﻭَﺃَﺳﻤَﻌَﺖ ﻛَﻠِﻤَﺎﺗِﻲ ﻣَﻦ ﺑِﻪُ ﺻَﻤَﻢُ'''
+# print(e34)
 
-# #Strings are Arrays
+#Strings are Arrays
 
-# bir = "Hello, World!"
-# print(bir[6]) # Arrays waa qaabka dhismeedka ay iskugu xigaan qoraalka ama karakterka e.g "hello" H = 0 e =1 l =2 l =3 o=4
+bir = "Hello, World!"
+print(bir[6]) # Arrays waa qaabka dhismeedka ay iskugu xigaan qoraalka ama karakterka e.g "hello" H = 0 e =1 l =2 l =3 o=4
 
-# #Looping Through a String
+#Looping Through a String
 
-# for f in "albashiiri":
-#   print(f)
+for f in "albashiiri":
+  print(f)
 
-# #String Length
+#String Length
 
-# a = "Hello, World!"
-# print(len(a))
+a = "Hello, World!"
+print(len(a))
 
-# froz03 = "Froz is in the bathroom"
-# print(len(froz03))
+froz03 = "Froz is in the bathroom"
+print(len(froz03))
 
-# froz04 = "Frois in the bathroom"
-# print(froz04[3])
+froz04 = "Frois in the bathroom"
+print(froz04[3])
 
-# #Check String
+#Check String
 
-# txt45 = "The best things in life are free!"
-# print("The" in txt45)
+txt45 = "The best things in life are free!"
+print("The" in txt45)
 
-# #example 2
-# txt46 = '''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,  
-# alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
-# Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
-# Labadii waxlaga eegijiray waan ka awdnahaye
-# Halkaan aa ka leeyahay Illaah kaliya uun baa og'''
-# print('alif' in txt46)
+#example 2
+txt46 = '''Alleyl dumay albaabadoo laxidhay, uunkoo wada seexday Onkad yeedhay uugaama roob,  
+alif banaadiikh ah Iihdayda bixibaa libaax iman lamoodaaye
+Raggase adhaxda iyo ooftu waa udub dhexaadkiiye
+Labadii waxlaga eegijiray waan ka awdnahaye
+Halkaan aa ka leeyahay Illaah kaliya uun baa og'''
+print('alif' in txt46)
 
-# #example 3
-# #Use it in an if statement:
+#example 3
+#Use it in an if statement:
 
-# txt500 = "Tuugnimo iyo biyo cabis waa khalad!"
-# if "biyo" in txt500:
-#   print("Haa, 'biyo xaditaan waa khalad.")
-# else:
-#   print("maya waa sax xaditaan")
+txt500 = "Tuugnimo iyo biyo cabis waa khalad!"
+if "biyo" in txt500:
+  print("Haa, 'biyo xaditaan waa khalad.")
+else:
+  print("maya waa sax xaditaan")
 
-# #Check if NOT
-# #Check if "expensive" is NOT present in the following text:
+#Check if NOT
+#Check if "expensive" is NOT present in the following text:
 
-# txt = "Tuugnimo iyo biyo cabis waa khalad!"
-# print("iyo" not in txt)
-# """
+txt = "Tuugnimo iyo biyo cabis waa khalad!"
+print("iyo" not in txt)
 
-# #27/02/203
-# #Slicing String
 
-# #You can return a range of characters by using the slice syntax.
-# #Specify the start index and the end index, separated by a colon, to return a part of the string.
+#27/02/203
+#Slicing String
 
-# b32 = "Hello, World!"
-# print(
-#   b32[2:5])  #Get the characters from position 2 to position 5 (not included):
+#You can return a range of characters by using the slice syntax.
+#Specify the start index and the end index, separated by a colon, to return a part of the string.
 
-# #Slice From the Start
-# ## By leaving out the start index, the range will start at the first character:
+b32 = "Hello, World!"
+print(
+  b32[2:5])  #Get the characters from position 2 to position 5 (not included):
 
-# b33 = "Merhaba, Caalam!"
-# print(
-#   b33[:5])  #Get the characters from the start to position 5 (not included):
+#Slice From the Start
+## By leaving out the start index, the range will start at the first character:
 
-# #Slice To the End
-# ##By leaving out the end index, the range will go to the end:
+b33 = "Merhaba, Caalam!"
+print(
+  b33[:5])  #Get the characters from the start to position 5 (not included):
 
-# b34 = "Iska wrn, World!"
-# print(
-#   b34[2:])  #Get the characters from position 2, and all the way to the end:
+#Slice To the End
+##By leaving out the end index, the range will go to the end:
 
-# #Negative Indexing
-# #Use negative indexes to start the slice from the end of the string:
+b34 = "Iska wrn, World!"
+print(
+  b34[2:])  #Get the characters from position 2, and all the way to the end:
 
-# # Example
-# # Get the characters:
+#Negative Indexing
+#Use negative indexes to start the slice from the end of the string:
 
-# # From: "o" in "World!" (position -5)
+# Example
+# Get the characters:
 
-# # To, but not included: "d" in "World!" (position -2):
+# From: "o" in "World!" (position -5)
 
-# b40 = "Hello, World!"
-# print(b40[-5:-2])
+# To, but not included: "d" in "World!" (position -2):
 
-# b55 = "Nabaadina, adduun!"
-# print(b55[-5:-2])
+b40 = "Hello, World!"
+print(b40[-5:-2])
 
-# #Python - Modify Strings
+b55 = "Nabaadina, adduun!"
+print(b55[-5:-2])
 
-# a72 = "merhaba, World!"
-# print(a72.upper())
+#Python - Modify Strings
 
-# a73 = "ola, World!"
-# print(a73.lower())
+a72 = "merhaba, World!"
+print(a72.upper())
 
-# #Remove Whitespace
-# #Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+a73 = "ola, World!"
+print(a73.lower())
 
-# #Example
-# #The strip() method removes any whitespace from the beginning or the end:
+#Remove Whitespace
+#Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
 
-# a74 = " Hello, World! "
-# print(a74.strip())  # returns "Hello, World!"
+#Example
+#The strip() method removes any whitespace from the beginning or the end:
 
-# #Replace String
+a74 = " Hello, World! "
+print(a74.strip())  # returns "Hello, World!"
 
-# #Example
-# #The replace() method replaces a string with another string:
+#Replace String
 
-# a75 = "Hello, World!"
-# print(a74.replace("H", "J"))
+#Example
+#The replace() method replaces a string with another string:
 
-# #Split String
-# #The split() method returns a list where the text between the specified separator becomes the list items.
+a75 = "Hello, World!"
+print(a74.replace("H", "J"))
 
-# #Example
-# #The split() method splits the string into substrings if it finds instances of the separator:
+#Split String
+#The split() method returns a list where the text between the specified separator becomes the list items.
 
-# a76 = "Hello, World!"
-# print(a76.split(","))  # returns ['Hello', ' World!']
+#Example
+#The split() method splits the string into substrings if it finds instances of the separator:
 
-# #Python - String Concatenation
+a76 = "Hello, World!"
+print(a76.split(","))  # returns ['Hello', ' World!']
 
-# #String Concatenation
-# #To concatenate, or combine, two strings you can use the + operator.
+#Python - String Concatenation
 
-# #Example
-# #Merge variable a with variable b into variable c:
+#String Concatenation
+#To concatenate, or combine, two strings you can use the + operator.
 
-# a77 = "Hello "
-# b77 = "Isha baxarka"
-# c77 = a77 + b77
-# print(c77)
+#Example
+#Merge variable a with variable b into variable c:
 
-# #Python - Format - Strings
+a77 = "Hello "
+b77 = "Isha baxarka"
+c77 = a77 + b77
+print(c77)
 
-# #String Format
-# #As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
-# '''
-# age = 36
-# txt = "My name is John, I am " + age
-# print(txt) #this is an error = le "main.py", line 629, in <module>
-#     txt = "My name is John, I am " + age
-# TypeError: can only concatenate str (not "int") to str
-# '''
+#Python - Format - Strings
 
-# #But we can combine strings and numbers by using the format() method!
+#String Format
+#As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+'''
+age = 36
+txt = "My name is John, I am " + age
+print(txt) #this is an error = le "main.py", line 629, in <module>
+    txt = "My name is John, I am " + age
+TypeError: can only concatenate str (not "int") to str
+'''
 
-# #The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+#But we can combine strings and numbers by using the format() method!
 
-# #Example
-# #Use the format() method to insert numbers into strings:
+#The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
 
-# age = 36
-# txt = "My name is John, and I am {}"
-# print(txt.format(age))
+#Example
+#Use the format() method to insert numbers into strings:
 
-# #The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
 
-# quantity = 3
-# itemno = "Moos iyo cambe"
-# price = 9.95
-# myorder = "I want {} pieces of item {} for {} lira."
-# print(myorder.format(quantity, itemno, price))
+#The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
 
-# #You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
+quantity = 3
+itemno = "Moos iyo cambe"
+price = 9.95
+myorder = "I want {} pieces of item {} for {} lira."
+print(myorder.format(quantity, itemno, price))
 
-# quantity2 = 3
-# itemno2 = 567
-# price2 = 49.95
-# myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}."
-# print(myorder2.format(quantity2, itemno2, price2))
+#You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
 
-# #Python - Escape Characters
+quantity2 = 3
+itemno2 = 567
+price2 = 49.95
+myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder2.format(quantity2, itemno2, price2))
 
-# #Escape Character
-# #To insert characters that are illegal in a string, use an escape character.
+#Python - Escape Characters
 
-# #An escape character is a backslash \ followed by the character you want to insert.
+#Escape Character
+#To insert characters that are illegal in a string, use an escape character.
 
-# #An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+#An escape character is a backslash \ followed by the character you want to insert.
 
-# #Example
-# #You will get an error if you use double quotes inside a string that is surrounded by double quotes:
-# '''
-# txt200 = "We are the so-called "Vikings" from the north." #this an error
-# '''
+#An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
 
-# #To fix this problem, use the escape character \":
+#Example
+#You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+'''
+txt200 = "We are the so-called "Vikings" from the north." #this an error
+'''
 
-# txt201 = "We are the so-called \"Vikings\" from the north."
-# print(txt201)
+#To fix this problem, use the escape character \":
 
-# # Escape Characters
-# # Other escape characters used in Python:
+txt201 = "We are the so-called \"Vikings\" from the north."
+print(txt201)
 
-# # Code	Result	Try it
-# # \'	Single Quote
-# # \\	Backslash
-# # \n	New Line
-# # \r	Carriage Return
-# # \t	Tab
-# # \b	Backspace
-# # \f	Form Feed
-# # \ooo	Octal value
-# # \xhh	Hex value
+# Escape Characters
+# Other escape characters used in Python:
+
+# Code	Result	Try it
+# \'	Single Quote
+# \\	Backslash
+# \n	New Line
+# \r	Carriage Return
+# \t	Tab
+# \b	Backspace
+# \f	Form Feed
+# \ooo	Octal value
+# \xhh	Hex value
 
 #Exercise
 a = ["Amasya", "Samsun", 'Ankara', "Antalya", "Diyarbakir", "Istanbul"]
@@ -819,8 +814,6 @@ print(isinstance(a, str))
 
 print(10 + 5)
 
-
-
 # Python Arithmetic Operators
 # Arithmetic operators are used with numeric values to perform common mathematical operations:
 
@@ -848,6 +841,10 @@ print(100 + 5 * 3)
 # Addition + and subtraction - has the same precedence, and therefor we evaluate the expression from left to right:
 
 print(5 + 4 - 7 + 3)
+
+
+
+
 
 #13/03/2023
 #Python Lists
@@ -932,11 +929,11 @@ print(thislist)
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
-"""*Set items are unchangeable, but you can remove and/or add items whenever you like.
+''' Set items are unchangeable, but you can remove and/or add items whenever you like.
 
 **As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
 
-When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security."""
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.'''
 
 
 
@@ -1034,7 +1031,7 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist)
 
-"""Note: The length of the list will change when the number of items inserted does not match the number of items replaced."""
+'''Note: The length of the list will change when the number of items inserted does not match the number of items replaced.'''
 
 # If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
 
