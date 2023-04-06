@@ -1,4 +1,6 @@
+"""
 import random
+
 print(random.randint(0, 100))
 
 ##Day 2 24 Jan
@@ -12,38 +14,34 @@ print("djfdf")
 
 # problem 1
 if 5 > 2:
-    print("Five is greater than two!")
+  print("Five is greater than two!")
 
 # problem 2
 if 5 > 2:
- print("Five is greater than two!")
+  print("Five is greater than two!")
 if 5 > 2:
-        print("Five is greater than two!")
+  print("Five is greater than two!")
 
 # Day 3 26/01/23
 # Comments
 
 print("comment")
-print("comment2") #this is an example of commments
-
-
+print("comment2")  #this is an example of commments
 
 ##Day 4 27/01/2023
 
 # Variables
 
-x = 5 # 5 is int (integer)
+x = 5  # 5 is int (integer)
 print(x)
 
-xx = "albashiiri" # albashiiri is str (string)
+xx = "albashiiri"  # albashiiri is str (string)
 print(xx)
 
 z = float(5)
 print(z)
 
-
-
-  ## Casting
+## Casting
 
 #example 1
 a = str(100)
@@ -60,13 +58,13 @@ print(type(h))
 print(type(i))
 print(type(j))
 
- # single or double qoutes
+# single or double qoutes
 
 l = "froz1"
 k = 'froz2'
 print(l, k)
 
- #Case-Sensitive
+#Case-Sensitive
 q = 1
 Q = 4
 print(q, Q)
@@ -75,9 +73,9 @@ T = 9
 T = "sally"
 print(T, T)
 
- #variable names
+#variable names
 
- #legal variable names
+#legal variable names
 myvar = "Bulbeni"
 my_var = "Bulbeni"
 _my_var = "Bulbeni"
@@ -86,13 +84,13 @@ MYVAR1 = "e"
 myvar2 = "d"
 print(myvar2)
 
- #illegal variable names
+#illegal variable names
 
 # 2myvar = "Bulbeni"
 # my-var = "Bulbeni"
 # my var = "Bulbeni"
 
- #Multi Words Variable Names
+#Multi Words Variable Names
 x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
@@ -111,10 +109,8 @@ print(x)
 print(y)
 print(z)
 
-
 ## 06/02/2023
 ### Output Variables
-
 
 #The Python print() function is often used to output variables.
 x = "Python is awesome"
@@ -130,13 +126,15 @@ print(x, y, z)
 x = "Python"
 y = "is"
 z = "awesome"
-print(x + y + z) #You can also use the + operator to output multiple variables:
+print(x + y +
+      z)  #You can also use the + operator to output multiple variables:
 
 #example
 x = "Machine learning "
 y = "will "
 z = "be awesome"
-print(x + y + z) #You can also use the + operator to output multiple variables:
+print(x + y +
+      z)  #You can also use the + operator to output multiple variables:
 
 # In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error: here is example
 x = 5
@@ -148,28 +146,30 @@ x = 5
 y = "Bulbeni"
 print(x, y)
 
-
-
 #07/02/2023
 
 #Global Variables
 
-  ##Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+##Variables that are created outside of a function (as in all of the examples above) are known as global variables.
 
-  #Global variables can be used by everyone, both inside of functions and outside.
+#Global variables can be used by everyone, both inside of functions and outside.
 
 x = "aminakoyum"
 
+
 def myfunc():
   print("froz " + x)
+
 
 myfunc()
 #example 2
 
 y = "tusaale"
 
+
 def froz0():
   print("sikerim seni " + y)
+
 
 froz0()
 
@@ -179,9 +179,13 @@ froz0()
 
 W = "albashiiri"
 
+
 def myfunc():
   w = "saalah"
-  print("Python is " + w) #If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+  print(
+    "Python is " + w
+  )  #If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+
 
 myfunc()
 
@@ -193,46 +197,42 @@ print("Python is " + W)
 
 # To create a global variable inside a function, you can use the global keyword.
 
+
 def myfunc():
   global x
   x = "fantastic"
+
 
 myfunc()
 
 print("Python is " + x)
 
+
 def syntax9():
   global M
   M = 7 + 3
 
+
 syntax9()
 print(M)
-
-
-
-
 
 #Also, use the global keyword if you want to change a global variable inside a function.
 
 x = "casiir"
 
+
 def myfunc():
   global x
   x = "caano"
+
 
 myfunc()
 
 x = "casiir"
 x = "four"
 print(x)
- 
-
-
-
 
 # print("hilib " + x) #To change the value of a global variable inside a function, refer to the variable by using the global keyword:
-
-
 
 #09/02/2023
 # Data types
@@ -242,20 +242,18 @@ print(x)
 
 #python has the following data types built-in by default, in these categories:
 
-x = 5 
+x = 5
 print(x)
 print(type(x))
 
-
 # Text Type:    str
-A = "froz" 
+A = "froz"
 print(A)
 print(type(A))
 
-
 # Numeric Types:    int, float, complex
 #integer
-B = 5 
+B = 5
 print(B)
 print(type(B))
 
@@ -269,7 +267,6 @@ D = 5j
 print(D)
 print(type(D))
 
-
 # Sequence Types:    list, tuple, range
 #list
 E = ["albashiiri", "froz", "qowle"]
@@ -277,7 +274,7 @@ print(E)
 print(type(E))
 
 #tuple
-F = ("albashiiri", "froz", "qowle") 
+F = ("albashiiri", "froz", "qowle")
 print(F)
 print(type(F))
 
@@ -288,19 +285,18 @@ print(type(H))
 
 # Mapping Type:    dict
 
-I = {"name" : "John", "age" : 36} 
+I = {"name": "John", "age": 36}
 print(I)
 print(type(I))
 
-
 # Set Types:    set, frozenset
 #set
-J = {"albashiiri", "froz", "qowle"} 
+J = {"albashiiri", "froz", "qowle"}
 print(J)
 print(type(J))
 
 #frozenset
-K = frozenset({"albashiiri", "froz", "qowle"}) 
+K = frozenset({"albashiiri", "froz", "qowle"})
 print(K)
 print(type(K))
 
@@ -330,7 +326,6 @@ print(type(N))
 O = None
 print(O)
 print(type(O))
-
 
 # continue 10/02/2023
 
@@ -380,7 +375,6 @@ print(m)
 n = memoryview(bytes(15))
 print(n)
 
-
 # 13/02/2023
 #Python numbers
 
@@ -389,13 +383,13 @@ o = 35656222554887711
 print(o)
 
 #Float
-p  = 9.7639
+p = 9.7639
 print(p)
 
 # Float can also be scientific numbers with an "e" to indicate the power of 10.
 # e qiimaheeda waa 10 yacni, 5e1 = 5 * 10 waanna 50. mar walba e waxa ka dambeeya tirada ey tahay baa zero u xisaabin. tusaale 1e4 waa (1*10000 = 10000)
 #float power
-p2 = 5e8 #500000000
+p2 = 5e8  #500000000
 print(p2)
 
 #complex
@@ -423,7 +417,6 @@ import random
 
 print(random.randrange(5, 18944))
 
-
 #14/02/2023
 #python casting
 
@@ -433,25 +426,25 @@ print(random.randrange(5, 18944))
 
 #int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
 
-we1 = int(1)   # we1 will be 1
-we2 = int(2.8) # we2 will be 2
-we3 = int("3") # we3 will be 3
+we1 = int(1)  # we1 will be 1
+we2 = int(2.8)  # we2 will be 2
+we3 = int("3")  # we3 will be 3
 
 print(we1, we2, we3)
 
 #float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
 
-q1 = float(1)     # q1 will be 1.0
-q2 = float(2.8)   # q2 will be 2.8
-q3 = float("3")   # q3 will be 3.0
-q4 = float("4.2") # q4 will be 4.2
+q1 = float(1)  # q1 will be 1.0
+q2 = float(2.8)  # q2 will be 2.8
+q3 = float("3")  # q3 will be 3.0
+q4 = float("4.2")  # q4 will be 4.2
 
 print(q1, q2, q3, q4)
 
 #str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
-qq = str("s1") # qq will be 's1'
-qq2 = str(2)    # qq2 will be '2'
+qq = str("s1")  # qq will be 's1'
+qq2 = str(2)  # qq2 will be '2'
 qq3 = str(3.0)  # qq3 will be '3.0'
 
 print(qq, qq2, qq3)
@@ -481,7 +474,9 @@ print(a)
 #Strings are Arrays
 
 bir = "Hello, World!"
-print(bir[6]) # Arrays waa qaabka dhismeedka ay iskugu xigaan qoraalka ama karakterka e.g "hello" H = 0 e =1 l =2 l =3 o=4
+print(
+  bir[6]
+)  # Arrays waa qaabka dhismeedka ay iskugu xigaan qoraalka ama karakterka e.g "hello" H = 0 e =1 l =2 l =3 o=4
 
 #Looping Through a String
 
@@ -526,7 +521,6 @@ else:
 
 txt = "Tuugnimo iyo biyo cabis waa khalad!"
 print("iyo" not in txt)
-
 
 #27/02/203
 #Slicing String
@@ -653,6 +647,10 @@ itemno2 = 567
 price2 = 49.95
 myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder2.format(quantity2, itemno2, price2))
+"""
+
+
+
 
 #Python - Escape Characters
 
@@ -665,14 +663,21 @@ print(myorder2.format(quantity2, itemno2, price2))
 
 #Example
 #You will get an error if you use double quotes inside a string that is surrounded by double quotes:
-'''
-txt200 = "We are the so-called "Vikings" from the north." #this an error
-'''
+
+#txt200 = "We are the so-called "Vikings" from the north." #this an error
+
 
 #To fix this problem, use the escape character \":
+####Note: if you run this txt201 u cant use {triple qoutes} so im Commenting txt201. it shows this error if you run >  ^ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 15321-15322: truncated \xXX escape
 
-txt201 = "We are the so-called \"Vikings\" from the north."
-print(txt201)
+# txt201 = "We are the so-called \"Vikings\" from the north."
+# print(txt201)
+
+
+
+
+
+
 
 # Escape Characters
 # Other escape characters used in Python:
@@ -688,13 +693,16 @@ print(txt201)
 # \ooo	Octal value
 # \xhh	Hex value
 
-#Exercise
-a = ["Amasya", "Samsun", 'Ankara', "Antalya", "Diyarbakir", "Istanbul"]
-x, y, z, w, q, s = a
-print(x, y, z, w, s)
+# #Exercise
+# a = ["Amasya", "Samsun", 'Ankara', "Antalya", "Diyarbakir", "Istanbul"]
+# x, y, z, w, q, s = a
+# print(x, y, z, w, s)
 
-a = "Amasya", "Samsun", 'Ankara', "Antalya"
-print(len(a[1:4]))
+# a = "Amasya", "Samsun", 'Ankara', "Antalya"
+# print(len(a[1:4]))
+
+
+"""
 
 
 
@@ -770,32 +778,37 @@ bool(["apple", "cherry", "banana"])
 
 # One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a _len_ function that returns 0 or False:
 
+
 class myclass():
+
   def _len_(self):
     return 0
+
 
 myobj = myclass()
 print(bool(myobj))
 
-
 # Functions can Return a Boolean
 # You can create functions that returns a Boolean Value:
 
-def myFunction() :
+
+def myFunction():
   return True
+
 
 print(myFunction())
 
 # You can execute code based on the Boolean answer of a function:
 
-def myFunction() :
+
+def myFunction():
   return True
+
 
 if myFunction():
   print("YES!")
 else:
   print("NO!")
-
 
 #Python also has many built-in functions that return a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type:
 
@@ -804,7 +817,6 @@ print(isinstance(x, int))
 
 a = "froz"
 print(isinstance(a, str))
-
 
 #Python Operators
 
@@ -817,22 +829,20 @@ print(10 + 5)
 # Python Arithmetic Operators
 # Arithmetic operators are used with numeric values to perform common mathematical operations:
 
-# Operator	        Name       	         Example	
+# Operator	        Name       	         Example
 # +	               Addition	               x + y
-# -		             Subtraction             x - y	
+# -		             Subtraction             x - y
 # *			           Multiplication          x * y
-# /		              Division               x / y	
-# %		               Modulus               x % y	
-# *		             Exponentiation        x * y	
+# /		              Division               x / y
+# %		               Modulus               x % y
+# *		             Exponentiation        x * y
 # //		             Floor division        x // y
-
 
 # Operator Precedence
 
 # Operator precedence describes the order in which operations are performed.
 
 print((6 + 3) - (6 + 3))
-
 
 # Multiplication * has higher precedence than addition +, and therefor multiplications are evaluated before additions:
 
@@ -841,10 +851,6 @@ print(100 + 5 * 3)
 # Addition + and subtraction - has the same precedence, and therefor we evaluate the expression from left to right:
 
 print(5 + 4 - 7 + 3)
-
-
-
-
 
 #13/03/2023
 #Python Lists
@@ -881,12 +887,10 @@ print(thislist)
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)
 
-
 #list Length To determine how many items a list has, use the len() function:
 
 thislist1 = ["apple", "banana", "cherry"]
 print(len(thislist1))
-
 
 #List Items - Data Types
 #List items can be of any data type:
@@ -918,7 +922,8 @@ print(type(mylist))
 ## Example
 # Using the list() constructor to make a List:
 
-thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+thislist = list(
+  ("apple", "banana", "cherry"))  # note the double round-brackets
 print(thislist)
 
 # Python Collections (Arrays)
@@ -928,14 +933,11 @@ print(thislist)
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
-
 ''' Set items are unchangeable, but you can remove and/or add items whenever you like.
 
 **As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
 
 When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.'''
-
-
 
 #Python - Access List Items
 
@@ -947,7 +949,6 @@ When choosing a collection type, it is useful to understand the properties of th
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
-
 '''Note: The first item has index 0.'''
 
 # Negative Indexing, Negative indexing means start from the end
@@ -1000,7 +1001,6 @@ thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
 
-
 #Python - Change List Items
 
 # Change Item Value To change the value of a specific item, refer to the index number:
@@ -1030,7 +1030,6 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist)
-
 '''Note: The length of the list will change when the number of items inserted does not match the number of items replaced.'''
 
 # If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
@@ -1041,7 +1040,6 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["watermelon"]
 print(thislist)
-
 
 # Insert Items
 # To insert a new list item, without replacing any of the existing values, we can use the insert() method.
@@ -1054,6 +1052,100 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "watermelon")
 print(thislist)
+"""
 
 #14/03/2023
 #Python - Add List Items
+
+
+#Append Items: To add an item to the end of the list, use the append() method:
+
+#Example
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+
+# Insert Items: To insert a list item at a specified index, use the insert() method. The insert() method inserts an item at the specified index:
+
+# Example: Insert an item as the second position:
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+
+#Extend List To append elements from another list to the current list, use the extend() method.
+
+# Example Add the elements of tropical to thislist:
+
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical) #The elements will be added to the end of the list.
+print(thislist)
+
+
+# Add Any Iterable
+# The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+
+#Example Add elements of a tuple to a list:
+
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
+
+
+#24/03/2023
+#Remove Specified Item
+#The remove() method removes the specified item.
+
+#Example Remove "banana":
+
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+
+# Remove Specified Index  The pop() method removes the specified index.
+
+#Example Remove the second item:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+
+# If you do not specify the index, the pop() method removes the last item.
+
+# Example Remove the last item:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+print(thislist)
+
+# The del keyword also removes the specified index:
+# Example Remove the first item:
+
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+# The del keyword can also delete the list completely.
+# Example Delete the entire list:
+
+thislist = ["apple", "banana", "cherry"]
+del thislist
+
+# Clear the List. The clear() method empties the list. The list still remains, but it has no content.
+
+# Example Clear the list content:
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
+# 03/04/23
+# Python - Loop Lists
+
+# Print all items in the list, one by one:
+
+# thislist = ["apple", "banana", "cherry"]
+# for x in thislist:
+#   print(x)
