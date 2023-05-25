@@ -99,16 +99,20 @@
 
 import random
 
-Start_game = True
+# def get_user_choice(player_name):
+#     choice = input(f'{player_name}, choose 1 (rock, paper, scissor): ').lower()
+#     while choice not in ['rock', 'paper', 'scissors']:
+#         choice = input('error! choose correct one amk:', choice)
+#         return choice
+#
+# print(get_user_choice(player_name))
 
-while Start_game:
-    Username = True
+play = True
+while play:
+    play =
+playername = input("what is your name:")
 
-    while Username:
-        Username = input("Set username: ")
-        display = str(Username)
 
-        print(str(f''.Username))
 
 
 
