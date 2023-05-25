@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05dd8f1f-addf-4a0e-8319-0a3fd7789358" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rock-paper-scissor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rock-paper-scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/rock-paper-scissor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
